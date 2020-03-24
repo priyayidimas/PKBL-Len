@@ -1,0 +1,168 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body {
+  height: 100%;
+  font-family: "Lato","Roboto",sans-serif }
+  .en-container {
+    width: 98%
+  }
+  #card-alert .card-content {
+    padding: 10px 20px;
+  }
+  
+  #card-alert i {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+  }
+  
+  #card-alert .alert-circle {
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+    border-radius: 1000px;
+    vertical-align: bottom;
+    position: relative;
+    top: -5px;
+    left: -2px;
+  }
+  
+  #card-alert .single-alert {
+    line-height: 42px;
+  }
+  
+  #card-alert button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  #card-alert .card .card-content {
+    padding: 20px 40px 20px 20px;
+  }
+  
+  #card-alert .card-action i {
+    top: 0;
+    margin: 0;
+  }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+.carousel-caption-a {
+    vertical-align: middle;
+    top: 20%
+}
+/* Adjustment for mobile devices*/
+@media (max-width: 990px) {
+  .carousel {
+    height: 100%; }
+  .carousel-item img {
+    height: 65vh;
+  }
+  .carousel-caption-a {
+    top: 25vmin;
+    margin: 0 !important;
+  }
+  .carousel-caption-b {
+    top: 60vw;
+    margin: 0 !important;
+  }
+  .carousel-caption h1 {
+    font-size: 25px;
+  }
+  .carousel-caption p {
+    font-size: 15px
+  }
+}
+
+@media (max-width: 576px){
+  .carousel-caption-b h3 {
+    font-size: 13pt
+  }
+  .carousel-caption-b p {
+    font-size: 10pt
+  }
+}
+
+/* Navbar animation */
+
+.navbar {
+  background: linear-gradient(to right, #3399ff -1%, rgb(0, 77, 141) 22%);
+  font-family: "Raleway", "Roboto";
+} 
+
+.top-nav-collapse {
+  /* background-color: rgb(0, 77, 141);  */
+  /* background: linear-gradient(to right, #99ccff 0%, rgb(0, 77, 141) 62%); */
+  background: linear-gradient(to right, #3399ff -1%, rgb(0, 77, 141) 22%);
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 992px) {
+  .navbar {
+  background: linear-gradient(to left, #3399ff -2%, rgb(0, 77, 141) 55%)} 
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: rgb(0, 77, 141); }
+
+  
+  .accordion-blocks .card {
+    margin-bottom: 1.2rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .accordion-blocks .card .card-body {
+    border-top: 1px solid #eee;
+  }
+
+
+
+  .gradient-custom {
+    background: #3a7bd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#3a6073), to(#3a7bd5));
+    background: -webkit-linear-gradient(left, #3a6073, #3a7bd5);
+    background: -o-linear-gradient(left, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  
+  .card-comments img {
+    width: 4rem; }
+    .avatar-pic {
+      width: 100px; 
+      height: 100px; }
+
+      .bc-icons .breadcrumb-item + .breadcrumb-item::before {
+        content: none; }
+    .bc-icons .breadcrumb-item.active {
+        color: #455a64; }
+
+        .scrollbar-morpheus-den::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+          background-color: #F5F5F5;
+          border-radius: 10px; }
+        
+        .scrollbar-morpheus-den::-webkit-scrollbar {
+          width: 12px;
+          background-color: #F5F5F5; }
+        
+        .scrollbar-morpheus-den::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+          background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+          background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+          background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); }

@@ -1,0 +1,33 @@
+.divider {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.divider > span {
+    position: relative;
+    display: inline-block;
+}
+
+.divider > span:before,
+.divider > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: rgba(0, 0, 0, .1);
+}
+
+.divider > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.divider > span:after {
+    left: 100%;
+    margin-left: 15px;
+}

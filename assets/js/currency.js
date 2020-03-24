@@ -1,0 +1,71 @@
+(function($, undefined) {
+
+    "use strict";
+
+    // When ready.
+    $(function() {
+        
+        var $form = $( "form" );
+        var $input = $form.find( ".currency" );
+
+        $input.on( "keyup", function( event ) {
+            
+            
+            // When user select text in the document, also abort.
+            var selection = window.getSelection().toString();
+            if ( selection !== '' ) {
+                return;
+            }
+            
+            // When the arrow keys are pressed, abort.
+            if ( $.inArray( event.keyCode, [38,40,37,39] ) !== -1 ) {
+                return;
+            }
+            
+            
+            var $this = $( this );
+            
+            // Get the value.
+            var input = $this.val();
+            
+            var input = input.replace(/[\D\s\._\-]+/g, "");
+                    input = input ? parseInt( input, 10 ) : 0;
+
+                    $this.val( function() {
+                        return ( input === 0 ) ? "" : input.toLocaleString( "en-US" );
+                    } );
+        } );
+        
+        /**
+         * ==================================
+         * When Form Submitted
+         * ==================================
+         */
+
+        
+    });
+
+    $(function() {
+        
+        var $form = $( "form" );
+        var $input = $form.find( "#from" );
+        var $target = $form.find( "#target" );
+
+        $input.on( "keyup", function( event ) {
+            var $this = $( this );            
+            var input = $this.val();
+            var input = input.replace(/[\.\\\-\(\)\&]+/g, "");            
+            var input = input.replace(/[\s]+/g, "-");            
+            $target.val(input.toString().toLowerCase());
+           
+        } );
+        
+        /**
+         * ==================================
+         * When Form Submitted
+         * ==================================
+         */
+
+        
+    });
+})(jQuery);

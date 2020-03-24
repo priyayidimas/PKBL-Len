@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil7 {fill:#004989;fill-rule:nonzero}
+    .fil0 {fill:#E62129;fill-rule:nonzero}
+    .fil5 {fill:url(#id0)}
+    .fil6 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+    .fil1 {fill:url(#id3)}
+    .fil3 {fill:url(#id4)}
+    .fil4 {fill:url(#id5)}
+   ]]>
+  </style>
+  <radialGradient id="id0" gradientUnits="userSpaceOnUse" cx="9009.14" cy="10033.3" r="644.08" fx="9009.14" fy="10033.3">
+   <stop offset="0" style="stop-color:#0083CC"/>
+   <stop offset="1" style="stop-color:#004989"/>
+  </radialGradient>
+  <radialGradient id="id1" gradientUnits="userSpaceOnUse" cx="12168.4" cy="12475.8" r="256.52" fx="12168.4" fy="12475.8">
+   <stop offset="0" style="stop-color:#0083CC"/>
+   <stop offset="1" style="stop-color:#004C8D"/>
+  </radialGradient>
+  <radialGradient id="id2" gradientUnits="userSpaceOnUse" cx="3323.45" cy="8113.65" r="730.48" fx="3323.45" fy="8113.65">
+   <stop offset="0" style="stop-color:#0083CC"/>
+   <stop offset="1" style="stop-color:#004D8E"/>
+  </radialGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" cx="2753.09" cy="2710.6" r="1061.55" fx="2753.09" fy="2710.6">
+  </radialGradient>
+  <radialGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" cx="4334.7" cy="7924.3" r="854.07" fx="4334.7" fy="7924.3">
+  </radialGradient>
+  <radialGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" cx="6442.26" cy="8615.93" r="799.02" fx="6442.26" fy="8615.93">
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M2338 14692l1209 -738c-837,-1636 -762,-3074 149,-3751 -2195,546 -2424,3255 -1358,4489z"/>
+  <path class="fil0" d="M4632 10048l10466 2629c626,148 1221,74 1612,-205 -688,1141 -2201,1382 -2951,1234l-9423 -2431c-422,-111 -825,-142 -961,-56 155,-471 502,-1190 1258,-1171z"/>
+  <path class="fil0" d="M15705 9887l1141 -695c818,1507 366,3131 -800,3261 205,-968 99,-1798 -341,-2567z"/>
+  <path class="fil1" d="M4446 2633c-1290,199 -1693,2219 -112,7094l0 0 9015 2330c-2013,-4864 -6430,-9440 -8677,-9441l0 0c-78,0 -154,5 -226,17l0 0z"/>
+  <path class="fil2" d="M5314 11759c2449,4774 4061,6541 5103,7292l-751 -1290 -6 -713 -2809 -4886 -1537 -403z"/>
+  <polygon class="fil3" points="7267,12274 11334,19472 11985,19795 12562,20806 13132,20973 12295,19503 12289,18846 8805,12677 "/>
+  <polygon class="fil4" points="9201,12770 13052,19535 13721,19906 14403,21078 14719,20861 14031,19664 14025,18933 10739,13173 "/>
+  <polygon class="fil5" points="11117,13248 13795,17947 14415,18226 15246,19677 15333,19013 14750,17984 14750,17303 12655,13651 "/>
+  <path class="fil6" d="M13083 13756l669 1178 478 173 682 1209c-112,-862 -365,-1544 -620,-2263l0 0 -1208 -298z"/>
+  <path class="fil7" d="M4773 26890l0 -5172c0,-168 59,-311 176,-428 117,-118 260,-177 429,-177l587 0 0 4702 2821 0 0 1075 -4013 0z"/>
+  <path class="fil7" d="M12697 25513l840 0c-123,470 -359,828 -706,1075 -347,257 -784,386 -1309,386 -638,0 -1137,-206 -1494,-621 -359,-403 -538,-980 -538,-1730 0,-716 174,-1275 521,-1679 358,-414 857,-622 1494,-622 672,0 1192,202 1562,605 358,414 538,991 538,1729l0 117 0 67c0,56 -6,95 -17,117l-2905 0c11,348 95,605 252,772 145,180 363,269 654,269 191,0 353,-40 487,-117 33,-11 64,-31 92,-59 28,-28 59,-59 93,-93 11,-33 52,-78 125,-134 73,-56 177,-83 311,-83zm-2015 -1310l1713 0c-23,-303 -101,-526 -236,-672 -145,-157 -352,-235 -621,-235 -246,0 -448,78 -604,235 -157,156 -241,381 -252,672z"/>
+  <path class="fil7" d="M18303 26890l-588 0c-168,0 -306,-53 -411,-160 -107,-106 -159,-243 -159,-410l0 -2284c0,-269 -81,-465 -244,-588 -163,-124 -345,-185 -546,-185 -201,0 -380,61 -537,185 -157,123 -235,319 -235,588l0 2854 -1176 0 0 -2620c0,-761 199,-1270 597,-1527 397,-257 837,-397 1318,-420 492,0 946,129 1360,386 414,257 621,778 621,1561l0 2620z"/>
+ </g>
+</svg>

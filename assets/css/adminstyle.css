@@ -1,0 +1,99 @@
+.sidebar-fixed {
+    background: linear-gradient(to right, #3399ff 1%, rgb(0, 77, 141) 90%);
+    height: 100vh;
+    width: 200px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    z-index: 1030;
+    background-color: #fff;
+ }
+ .sidebar-fixed .list-group{
+     padding: 0 10px 0 10px;
+     font-size: 14px
+ }
+    .sidebar-fixed .list-group .active {
+      -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      padding: 1rem;  
+    }
+    .sidebar-fixed .logo-wrapper {
+      padding: 2.5rem; }
+      .sidebar-fixed .logo-wrapper img {
+        max-height: 50px; }
+    .navbar {
+        background: linear-gradient(to right, #3399ff -1%, rgb(0, 77, 141) 22%);
+        font-family: "Raleway", "Roboto";
+    } 
+      
+  @media (min-width: 1200px) {
+    .page-footer,
+    main {
+      padding-left: 200px; } }
+  
+  @media (max-width: 1199.98px) {
+    .sidebar-fixed {
+      display: none; } }
+      .sidebar-fixed .user-view,
+      .sidebar-fixed .userView {
+        position: relative;
+        padding: 32px 32px 0;
+        margin-bottom: 8px;
+        margin-top: 20px;
+      }
+      
+      .sidebar-fixed .user-view > a,
+      .sidebar-fixed .userView > a {
+        height: auto;
+        padding: 0;
+      }
+      
+      .sidebar-fixed .user-view > a:hover,
+      .sidebar-fixed .userView > a:hover {
+        background-color: transparent;
+      }
+      
+      .sidebar-fixed .user-view .background,
+      .sidebar-fixed .userView .background {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+      }
+      
+      .sidebar-fixed .user-view .circle, .sidebar-fixed .user-view .name, .sidebar-fixed .user-view .email,
+      .sidebar-fixed .userView .circle,
+      .sidebar-fixed .userView .name,
+      .sidebar-fixed .userView .email {
+        display: block;
+      }
+      
+      .sidebar-fixed .user-view .circle,
+      .sidebar-fixed .userView .circle {
+        height: 64px;
+        width: 64px;
+      }
+      
+      .sidebar-fixed .user-view .name,
+      .sidebar-fixed .user-view .email,
+      .sidebar-fixed .userView .name,
+      .sidebar-fixed .userView .email {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      
+      .sidebar-fixed .user-view .name,
+      .sidebar-fixed .userView .name {
+        margin-top: 16px;
+        font-weight: 500;
+      }
+      
+      .sidebar-fixed .user-view .email,
+      .sidebar-fixed .userView .email {
+        padding-bottom: 16px;
+        font-weight: 400;
+      }
